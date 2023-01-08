@@ -10,3 +10,12 @@ const generateToken = (id) => {
     expiresIn: "7d",
   });
 };
+
+const register = async(req, res) => {
+    res.end("Registro")
+}
+
+
+module.exports = {
+    register,
+}
