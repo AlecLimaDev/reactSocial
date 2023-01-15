@@ -21,4 +21,4 @@ Essa aplicação que estou desenvolvendo se trata de uma Rede social.
 
 ## `Aplicação`
 
-Como estou desenvolvendo a aplicação ainda não vou liberar o link de deploy: [`Aguarde`]().
+Como estou desenvolvendo a aplicação ainda não vou liberar o link de `Deploy`.
