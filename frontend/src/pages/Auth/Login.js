@@ -1,14 +1,12 @@
 import "./Auth.css";
 
-// Components
+
 import { Link } from "react-router-dom";
 import Message from "../../components/Message";
 
-// Hooks
 import { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 
-// Redux
 import { login, reset } from "../../slices/authSlice";
 
 const Login = () => {
@@ -32,7 +30,6 @@ const Login = () => {
     dispatch(login(user));
   };
 
-  // Clean all auth states
   useEffect(() => {
     dispatch(reset());
   }, [dispatch]);

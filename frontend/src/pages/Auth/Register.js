@@ -1,14 +1,11 @@
 import "./Auth.css";
 
-// Components
 import { Link } from "react-router-dom";
 import Message from "../../components/Message";
 
-// Hooks
 import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 
-// Redux
 import { register, reset } from "../../slices/authSlice";
 
 const Register = () => {
@@ -36,7 +33,6 @@ const Register = () => {
     dispatch(register(user));
   };
 
-  // Clean all auth states
   useEffect(() => {
     dispatch(reset());
   }, [dispatch]);
